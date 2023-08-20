@@ -4,7 +4,7 @@ import Header from "../components/Header";
 const About = () => {
   return (
     <>
-      <Header></Header>
+      <Header currentTab="About" />
       <div className="container">
         <div className="row d-flex justify-content-center">
           <h1 className="mt-4">Aslam Thachapalli</h1>

@@ -1,12 +1,4 @@
-import { useState } from "react";
-
-const Header = () => {
-  const [page, setPage] = useState("About");
-
-  function handleNavBarClick(pageStr) {
-    setPage(pageStr);
-  }
-
+const Header = ({ currentTab }) => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
@@ -30,29 +22,35 @@ const Header = () => {
         >
           <div className="navbar-nav">
             <a
-              className={page === "About" ? "nav-link active" : "nav-link"}
+              className={
+                currentTab === "About" ? "nav-link active" : "nav-link"
+              }
               aria-current="page"
               href="/info"
-              onClick={() => handleNavBarClick("About")}
             >
               About
             </a>
             <a
-              className={page === "Portfolio" ? "nav-link active" : "nav-link"}
+              className={
+                currentTab === "Portfolio" ? "nav-link active" : "nav-link"
+              }
               href="/portfolio"
-              onClick={() => handleNavBarClick("Portfolio")}
             >
               Portfolio
             </a>
             <a
-              className={page === "Contact" ? "nav-link active" : "nav-link"}
+              className={
+                currentTab === "Contact" ? "nav-link active" : "nav-link"
+              }
               href="/contact"
-              onClick={() => handleNavBarClick("Contact")}
             >
               Contact
             </a>
           </div>
         </div>
+        {/* <a className="navbar-brand" aria-expanded="false" href="/">
+          Home
+        </a> */}
       </div>
     </nav>
   );

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 const Portfolio = () => {
   return (
     <>
-      <Header></Header>
+      <Header currentTab="Portfolio" />
       <p>PortFolio</p>
       <Footer></Footer>
     </>
