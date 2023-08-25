@@ -3,6 +3,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import SocialMedia from "../components/SocialMedia";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
@@ -33,46 +34,7 @@ const Contact = () => {
                   />
                 </SocialMedia>
               </div>
-              <div>
-                <div class="mb-3">
-                  <label for="nameInput" class="form-label">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="nameInput"
-                    placeholder="Your Name"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="emailInput" class="form-label">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="emailInput"
-                    placeholder="name@example.com"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="messageInput" class="form-label">
-                    Message
-                  </label>
-                  <textarea
-                    class="form-control"
-                    id="messageInput"
-                    rows="3"
-                    placeholder="Write Something!"
-                  ></textarea>
-                </div>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary" type="button">
-                    Sent
-                  </button>
-                </div>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </div>
