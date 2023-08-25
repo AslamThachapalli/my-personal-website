@@ -8,9 +8,9 @@ const Journey = ({ period, company, title, responsibilities }) => {
 
       <div className="col-md-7">
         <h5 className="mt-4 mt-md-0">{title}</h5>
-        <ul class="list-group list-group-flush">
-          {responsibilities.map((responsibility) => (
-            <li class="list-group-item list-group-item-action">
+        <ul className="list-group list-group-flush">
+          {responsibilities.map((responsibility, index) => (
+            <li key={index} className="list-group-item list-group-item-action">
               {responsibility}
             </li>
           ))}
