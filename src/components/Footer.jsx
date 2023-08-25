@@ -20,7 +20,7 @@ const Footer = () => {
 
           <div className="col-sm-6 mb-2 mt-sm-2 d-flex justify-content-center justify-content-sm-end">
             <a
-              href="https://instagram.com"
+              href="https://www.linkedin.com/in/aslam-thachapalli/"
               target="_blank"
               className="text-light"
             >

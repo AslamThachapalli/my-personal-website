@@ -20,14 +20,16 @@ const Contact = () => {
                   target="_blank"
                   className="text-dark"
                 >
-                  <BiLogoLinkedin />
+                  <BiLogoLinkedin style={{ width: "40px", height: "40px" }} />
                 </a>
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   className="text-dark ps-4"
                 >
-                  <MdOutlineMailOutline />
+                  <MdOutlineMailOutline
+                    style={{ width: "40px", height: "40px" }}
+                  />
                 </a>
               </div>
               <div className="mt-4">
