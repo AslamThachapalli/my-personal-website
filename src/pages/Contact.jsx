@@ -2,6 +2,7 @@ import { BiLogoLinkedin } from "react-icons/bi";
 import { MdOutlineMailOutline } from "react-icons/md";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import SocialMedia from "../components/SocialMedia";
 
 const Contact = () => {
   return (
@@ -15,24 +16,24 @@ const Contact = () => {
             </div>
             <div className="col-md-6 d-flex flex-column">
               <div className="d-flex justify-content-center mb-4">
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  className="text-dark"
+                <SocialMedia
+                  isBlackIcon={true}
+                  link="https://www.linkedin.com/in/aslam-thachapalli/"
                 >
                   <BiLogoLinkedin style={{ width: "40px", height: "40px" }} />
-                </a>
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  className="text-dark ps-4"
+                </SocialMedia>
+
+                <SocialMedia
+                  isBlackIcon={true}
+                  isPadded={true}
+                  link="mailto:aslam.develop912@gmail.com"
                 >
                   <MdOutlineMailOutline
                     style={{ width: "40px", height: "40px" }}
                   />
-                </a>
+                </SocialMedia>
               </div>
-              <div className="mt-4">
+              <div>
                 <div class="mb-3">
                   <label for="nameInput" class="form-label">
                     Name
