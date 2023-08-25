@@ -13,16 +13,30 @@ const Home = () => {
           <div className="col-md-10 col-lg-8 m-4 ">
             <h1 className="text-center">Aslam Thachapalli</h1>
             <h2 className="text-start mt-4">
-              Hi! I am a Flutter Developer based in India. Here you can see some
-              of my latest <span className="text-light">work</span>
+              Hello, I am Aslam. Welcome to my corner of the internet! I am a
+              Flutter Developer based in India. Here you can see some of my
+              favorite{" "}
+              <span
+                className="text-light"
+                onClick={() => navigate("portfolio")}
+                style={{ cursor: "pointer" }}
+              >
+                WORK.
+              </span>
             </h2>
 
             <h2 className="text-start mt-4">
-              Feel free to snoop around my{" "}
+              Feel free to snoop around on my{" "}
               <span className="text-light">CV.</span>
               <br />
-              For Enquiries and How you doing{" "}
-              <span className="text-light">contact me,</span>
+              For inquiries or a how you doing{" "}
+              <span
+                className="text-light"
+                onClick={() => navigate("contact")}
+                style={{ cursor: "pointer" }}
+              >
+                CONTACT ME,
+              </span>
               <br />I will be happy to hear from you.
             </h2>
 

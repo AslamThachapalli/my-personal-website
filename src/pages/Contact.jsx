@@ -11,11 +11,16 @@ const Contact = () => {
       <div className="d-flex flex-column vh-100 justify-content-between">
         <Header currentTab="Contact" />
         <div className="container">
-          <div className="row d-flex align-items-center">
-            <div className="col-md-6">
+          <div className="row d-flex align-items-center p-md-0 p-2">
+            <div className="col-md-6 mt-md-0 mt-4">
               <h1>Let's Talk!</h1>
+              <h4>
+                Feel free to reach out or connect with me on LinkedIn/GitHub.
+                Let's embark on a journey to reshape the digital world, one
+                Flutter app at a time.
+              </h4>
             </div>
-            <div className="col-md-6 d-flex flex-column">
+            <div className="col-md-6 d-flex flex-column mt-md-0 mt-4">
               <div className="d-flex justify-content-center mb-4">
                 <SocialMedia
                   isBlackIcon={true}
@@ -35,10 +40,11 @@ const Contact = () => {
                 </SocialMedia>
               </div>
               <ContactForm />
+              <br className="d-block d-md-none" />
             </div>
           </div>
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
     </>
   );

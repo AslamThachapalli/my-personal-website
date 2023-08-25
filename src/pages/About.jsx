@@ -11,14 +11,10 @@ const About = () => {
           <div className="col-11 col-lg-8">
             <h1 className="mt-4">Aslam Thachapalli</h1>
             <h2 className="mt-2">
-              Mexican artist, I mainly work with oils, color pencils and
-              gouache. Passionate about celebrating diversity through my work,
-              weaving stories through shapes and colours, inspired by feelings,
-              dreams and everyday life. My art intends to represent strong
-              confident characters living in vibrant worlds which are often a
-              fusion between real life and my imagination. I play with the
-              disruption of the human form to reveal my view on both internal
-              and external beauty.
+              I'm a passionate Flutter developer dedicated to crafting engaging
+              and pixel-perfect mobile applications. With a love for elegant
+              code and user-centric design, I find joy in turning innovative
+              ideas into delightful and functional digital experiences.
             </h2>
             <h1 className="mt-4">My Journey</h1>
             <div className="mt-2">
@@ -27,10 +23,20 @@ const About = () => {
                 company="Digichorus Technologies Pvt Ltd"
                 title="Flutter Developer"
                 responsibilities={[
-                  "This is a Task That i did on the company.",
-                  "This is a Task That i did on the company. This task a bit long",
-                  "This is a small Responsibility",
+                  "Working on Micro App architectural pattern with Flutter",
                 ]}
+                link="https://www.digichorus.com/"
+              />
+
+              <Journey
+                period="Jan 2023 - May 2023"
+                company="Brain Podium Technologies Pvt Ltd"
+                title="Freelance Flutter Developer"
+                responsibilities={[
+                  "Added a comprehensive chat module to a stock market education app - Livelong Wealth",
+                  "Developed an attendance management application. It uses Face Authentication to identify the user.",
+                ]}
+                link="https://www.brainpodium.com/"
               />
 
               <Journey
@@ -38,39 +44,28 @@ const About = () => {
                 company="Kohbee Technologies Pvt Ltd"
                 title="Flutter Developer Intern"
                 responsibilities={[
-                  "This is a Task That i did on the company.",
-                  "This is a Task That i did on the company. This task a bit long",
-                  "This is a small Responsibility",
+                  "Extended app localisation capabilities to support multilingual user experiences.",
+                  "Wrote integration tests from scratch to ensure the reliability and functionality of the app.",
+                  "Developed internal tools and admin-specific flows in the app to manage client on-boarding and other controls for client management.",
+                  "Developed Trusted Web Activities (TWAs) to deliver customised apps for clients, contributing to their business growth.",
+                  "Added additional modules to enhance the overall functionality and user experience of the app.",
                 ]}
-              />
-
-              <Journey
-                period="Jan 2022 - May 2023"
-                company="Brain Podium Technologies Pvt Ltd"
-                title="Freelance Flutter Developer"
-                responsibilities={[
-                  "This is a Task That i did on the company.",
-                  "This is a Task That i did on the company. This task a bit long",
-                  "This is a small Responsibility",
-                ]}
+                link="https://www.kohbee.com/"
               />
 
               <Journey
                 period="July 2022"
                 company="College of Engineering Trivandrum"
                 title="Graduation"
-                responsibilities={[
-                  "This is a Task That i did on the company.",
-                  "This is a Task That i did on the company. This task a bit long",
-                  "This is a small Responsibility",
-                ]}
+                responsibilities={["Completed my Bachelors in Technology"]}
+                link="https://www.cet.ac.in/"
               />
             </div>
           </div>
         </div>
       </div>
       <br /> <br />
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

@@ -1,9 +1,15 @@
-const Journey = ({ period, company, title, responsibilities }) => {
+const Journey = ({ period, company, title, responsibilities, link }) => {
   return (
     <div className="row mt-4">
       <div className="col-md-5">
         <h5>{period}</h5>
-        <h6>{company}</h6>
+        <a
+          href={link}
+          target="_blank"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <h6>{company}</h6>
+        </a>
       </div>
 
       <div className="col-md-7">
