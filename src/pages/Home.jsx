@@ -21,13 +21,19 @@ const Home = () => {
                 onClick={() => navigate("portfolio")}
                 style={{ cursor: "pointer" }}
               >
-                WORK.
+                WORKS.
               </span>
             </h2>
 
             <h2 className="text-start mt-4">
               Feel free to snoop around on my{" "}
-              <span className="text-light">CV.</span>
+              <a
+                href="https://drive.google.com/file/d/1i2bIjHzc1pWQw-hl1Q-_0WDrrfysIC9J/view?usp=sharing"
+                target="_blank"
+                style={{ textDecoration: "none" }}
+              >
+                <span className="text-light">CV.</span>{" "}
+              </a>
               <br />
               For inquiries or a how you doing{" "}
               <span

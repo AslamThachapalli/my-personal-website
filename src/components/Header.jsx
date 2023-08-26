@@ -48,9 +48,6 @@ const Header = ({ currentTab }) => {
             </a>
           </div>
         </div>
-        {/* <a className="navbar-brand" aria-expanded="false" href="/">
-          Home
-        </a> */}
       </div>
     </nav>
   );

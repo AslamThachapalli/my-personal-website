@@ -1,7 +1,7 @@
 const Journey = ({ period, company, title, responsibilities, link }) => {
   return (
     <div className="row mt-4">
-      <div className="col-md-5">
+      <div className="col-md-4">
         <h5>{period}</h5>
         <a
           href={link}
@@ -10,6 +10,10 @@ const Journey = ({ period, company, title, responsibilities, link }) => {
         >
           <h6>{company}</h6>
         </a>
+      </div>
+
+      <div className="col-md-1 d-none d-md-block">
+        <div className="vr" style={{ height: "70px" }}></div>
       </div>
 
       <div className="col-md-7">
