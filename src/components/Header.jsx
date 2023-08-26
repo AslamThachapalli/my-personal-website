@@ -1,6 +1,6 @@
 const Header = ({ currentTab }) => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           Home
@@ -17,7 +17,7 @@ const Header = ({ currentTab }) => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse d--flex justify-content-center"
+          className="collapse navbar-collapse d--flex justify-content-md-center justify-content-end"
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav">

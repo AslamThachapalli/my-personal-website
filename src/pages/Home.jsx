@@ -5,8 +5,8 @@ const Home = () => {
 
   return (
     <div
-      className="bg-success d-flex align-items-center"
-      style={{ height: "100vh" }}
+      className="d-flex align-items-center p-4 p-md-0"
+      style={{ height: "100vh", backgroundColor: "#BECEE8" }}
     >
       <div className="container">
         <div className="row text-black d-flex justify-content-center">
@@ -17,9 +17,11 @@ const Home = () => {
               Flutter Developer based in India. Here you can see some of my
               favorite{" "}
               <span
-                className="text-light"
                 onClick={() => navigate("portfolio")}
-                style={{ cursor: "pointer" }}
+                style={{
+                  cursor: "pointer",
+                  color: "#EFF5FE",
+                }}
               >
                 WORKS.
               </span>
@@ -30,16 +32,15 @@ const Home = () => {
               <a
                 href="https://drive.google.com/file/d/1i2bIjHzc1pWQw-hl1Q-_0WDrrfysIC9J/view?usp=sharing"
                 target="_blank"
-                style={{ textDecoration: "none" }}
+                style={{ textDecoration: "none", color: "#EFF5FE" }}
               >
-                <span className="text-light">CV.</span>{" "}
+                CV.
               </a>
               <br />
               For inquiries or a how you doing{" "}
               <span
-                className="text-light"
                 onClick={() => navigate("contact")}
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", color: "#EFF5FE" }}
               >
                 CONTACT ME,
               </span>
@@ -50,9 +51,8 @@ const Home = () => {
               P.S. If this wasn't enough for you no worries! <br /> you can also
               find out more{" "}
               <span
-                className="text-light"
                 onClick={() => navigate("info")}
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", color: "#EFF5FE" }}
               >
                 ABOUT ME
               </span>{" "}

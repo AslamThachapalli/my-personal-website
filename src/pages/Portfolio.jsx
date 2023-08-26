@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PortfolioTile from "../components/PortfolioTile";
@@ -7,8 +8,16 @@ import vocalis from "../assets/vocalis.jpg";
 import foodiee from "../assets/foodiee.jpg";
 import integration from "../assets/integration.jpg";
 import notes from "../assets/notes.jpg";
+import attributions from "../components/attributions";
 
 const Portfolio = () => {
+  const [showAttributions, setShowAttributions] = useState(false);
+
+  const toggleAttributions = () => {
+    const shouldShow = !showAttributions;
+    setShowAttributions(shouldShow);
+  };
+
   return (
     <>
       <Header currentTab="Portfolio" />
@@ -53,6 +62,31 @@ const Portfolio = () => {
           />
         </div>
       </div>
+
+      <div className="d-flex justify-content-center">
+        <p onClick={toggleAttributions} style={{ cursor: "pointer" }}>
+          attributions
+        </p>
+      </div>
+
+      <div
+        className={`d-flex justify-content-center ms-4 me-4 ${
+          showAttributions ? "" : "d-none"
+        }`}
+      >
+        <div className="card" style={{ width: "25rem" }}>
+          <ul className="list-group list-group-flush">
+            {attributions.map((attr, index) => {
+              return (
+                <li key={index} className="list-group-item">
+                  {attr}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+
       <br />
       <Footer />
     </>

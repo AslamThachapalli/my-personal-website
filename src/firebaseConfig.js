@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDDmlR9Sgp_7b5j1d6x7ufUzATcSS4RS5o",
-    authDomain: "portfolio-website-22480.firebaseapp.com",
-    projectId: "portfolio-website-22480",
-    storageBucket: "portfolio-website-22480.appspot.com",
-    messagingSenderId: "624063340223",
-    appId: "1:624063340223:web:50024df624589efc93700a",
-    measurementId: "G-JGL4R9MHGC",
-  };
+  apiKey: "AIzaSyBFQ7eRXN7hgUHJbDCwN6NOibcnSs4J5RE",
+  authDomain: "aslamthachapalli.firebaseapp.com",
+  projectId: "aslamthachapalli",
+  storageBucket: "aslamthachapalli.appspot.com",
+  messagingSenderId: "505158832951",
+  appId: "1:505158832951:web:d60c31f56b0ef90f6240b2",
+  measurementId: "G-FKZLR98EP8"
+};
 
   export default firebaseConfig;

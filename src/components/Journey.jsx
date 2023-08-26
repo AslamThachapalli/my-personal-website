@@ -17,7 +17,7 @@ const Journey = ({ period, company, title, responsibilities, link }) => {
       </div>
 
       <div className="col-md-7">
-        <h5 className="mt-4 mt-md-0">{title}</h5>
+        <h5 className="mt-2 mt-md-0">{title}</h5>
         <ul className="list-group list-group-flush">
           {responsibilities.map((responsibility, index) => (
             <li key={index} className="list-group-item list-group-item-action">
@@ -25,6 +25,10 @@ const Journey = ({ period, company, title, responsibilities, link }) => {
             </li>
           ))}
         </ul>
+      </div>
+
+      <div className="d-flex justify-content-center d-md-none">
+        <hr style={{ width: "100px" }} />
       </div>
     </div>
   );

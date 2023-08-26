@@ -35,7 +35,12 @@ const ContactForm = () => {
     const db = getFirestore();
 
     try {
-      const docRef = await addDoc(collection(db, "messages"), formData);
+      const docRef = await addDoc(collection(db, "messages"), {
+        ...formData,
+        isSeen: false,
+        isReplied: false,
+        recievedOn: Date.now(),
+      });
       setFormData({
         name: "",
         email: "",
