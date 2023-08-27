@@ -100,7 +100,7 @@ const ContactForm = () => {
       </div>
       <div className="d-grid gap-2">
         <button
-          className="btn btn-primary"
+          className="btn btn-secondary"
           type="button"
           onClick={handleSubmit}
         >

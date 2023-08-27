@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.css";
+
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
-import App from "./App.jsx";
-import "bootstrap/dist/css/bootstrap.css";
-import "./App.css";
 import firebaseConfig from "./firebaseConfig.js";
+
+import App from "./App.jsx";
+import "./App.css";
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
