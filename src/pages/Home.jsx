@@ -56,7 +56,7 @@ const Home = () => {
               >
                 ABOUT ME
               </span>{" "}
-              here ;)
+              here :)
             </h2>
           </div>
         </div>
