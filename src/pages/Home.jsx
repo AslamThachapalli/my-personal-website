@@ -30,7 +30,7 @@ const Home = () => {
             <h2 className="text-start mt-4">
               Feel free to snoop around on my{" "}
               <a
-                href="https://drive.google.com/file/d/1i2bIjHzc1pWQw-hl1Q-_0WDrrfysIC9J/view?usp=sharing"
+                href="https://drive.google.com/file/d/15HjIsBK5dBmaV_FNUUpwpzqHwaZ70bge/view?usp=sharing"
                 target="_blank"
                 style={{ textDecoration: "none", color: "#EFF5FE" }}
               >

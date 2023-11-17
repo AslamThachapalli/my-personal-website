@@ -2,12 +2,14 @@ import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PortfolioTile from "../components/PortfolioTile";
+import videoChat from "../assets/video_chat.jpg";
 import netflix from "../assets/netflix-logo.jpg";
 import faceImg from "../assets/face-auth.jpg";
 import vocalis from "../assets/vocalis.jpg";
 import foodiee from "../assets/foodiee.jpg";
 import integration from "../assets/integration.jpg";
 import notes from "../assets/notes.jpg";
+import pythonApi from "../assets/python_api.jpg";
 import attributions from "../components/attributions";
 
 const Portfolio = () => {
@@ -24,6 +26,12 @@ const Portfolio = () => {
 
       <div className="container p-4">
         <div className="row d-flex justify-content-center">
+          <PortfolioTile
+            image={videoChat}
+            title="WebRTC Peer Chat"
+            description="Peer to Peer Video Chat application using WebRTC Protocol. Agora realtime messaging is used for signalling."
+            link="https://github.com/AslamThachapalli/webrtc-peer-chat"
+          />
           <PortfolioTile
             image={vocalis}
             title="Vocalis AI"
@@ -45,13 +53,13 @@ const Portfolio = () => {
           <PortfolioTile
             image={foodiee}
             title="Foodiee App"
-            description="An e-commerce app programmed in DDD architecture."
+            description="An e-commerce app programmed in DDD architecture. App contains payment integrations using Razorpay, map integration using Mapbox Api and more."
             link="https://github.com/AslamThachapalli/foodiee_app"
           />
           <PortfolioTile
             image={notes}
             title="Notes App"
-            description="A personalised notes taking app designed in DDD architecture."
+            description="A personalised notes taking app designed in DDD architecture. Bloc is used for state management and firebase as backend."
             link="https://github.com/AslamThachapalli/Notes_App"
           />
           <PortfolioTile
@@ -59,6 +67,12 @@ const Portfolio = () => {
             title="Flutter Platform Integration"
             description="An App that explores the platform channels provided by flutter."
             link="https://github.com/AslamThachapalli/flutter_platform_channels"
+          />
+          <PortfolioTile
+            image={pythonApi}
+            title="Python Social Media App"
+            description="This is backend project created using FastApi. It contains authentication, CRUD operations for a social media post plus liking and unliking a post."
+            link="https://github.com/AslamThachapalli/python-social-media-app"
           />
         </div>
       </div>

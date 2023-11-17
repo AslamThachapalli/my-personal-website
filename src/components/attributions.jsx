@@ -1,5 +1,11 @@
 const attributions = [
   <span>
+    Image by{" "}
+    <a href="https://www.freepik.com/free-vector/online-video-calling-with-therapist_7883236.htm#query=video%20chat&position=16&from_view=search&track=ais&uuid=87477dd1-9ab6-4006-9430-9f6d2f921385">
+      Freepik
+    </a>
+  </span>,
+  <span>
     <a href="https://www.freepik.com/free-vector/delivery-staff-ride-motorcycles-shopping-concept_11878958.htm#query=food%20delivery&position=2&from_view=search&track=ais">
       Image by jcomp
     </a>{" "}
@@ -38,6 +44,12 @@ const attributions = [
       Image by pch.vector
     </a>{" "}
     on Freepik
+  </span>,
+  <span>
+    Image by{" "}
+    <a href="https://www.freepik.com/free-vector/flat-design-api-illustration_25876189.htm#query=api&position=1&from_view=search&track=sph&uuid=393eaa79-a9f7-4186-90c5-ba8179ae548c">
+      Freepik
+    </a>
   </span>,
 ];
 

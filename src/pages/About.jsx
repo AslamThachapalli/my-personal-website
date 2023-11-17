@@ -11,10 +11,12 @@ const About = () => {
           <div className="col-11 col-lg-8">
             <h1 className="mt-4 mb-4">Aslam Thachapalli</h1>
             <h4 className="mt-2">
-              I'm a passionate Flutter developer dedicated to crafting engaging
-              and pixel-perfect mobile applications. With a love for elegant
-              code and user-centric design, I find joy in turning innovative
-              ideas into delightful and functional digital experiences.
+              I'm a dedicated Flutter developer passionate about creating
+              engaging, pixel-perfect mobile apps. My love for elegant code and
+              user-centric design drives me to transform innovative concepts
+              into delightful digital experiences. Additionally, I bring
+              expertise in web technologies such as HTML, CSS, Bootstrap, React,
+              and JavaScript to craft versatile and dynamic digital solutions.
             </h4>
             <h3 className="mt-4">When I'm not coding:</h3>
             <h4>
@@ -38,18 +40,28 @@ const About = () => {
                 company="Digichorus Technologies Pvt Ltd"
                 title="Flutter Developer"
                 responsibilities={[
-                  "Working on Micro App architectural pattern with Flutter",
+                  "Working as Mobile Application Developer for Qatar National Bank (QNB).",
+                  "Lead member in migrating QNB's current app, which is built with Kony framework, to flutter framework for Android, IOS and Web.",
+                  "Explored Micro-App Architecture potential in Flutter via git submodules and Melos for R&D purposes.",
+                  "I created tailored packages and plugins to meet precise needs, leveraging Platform Channels for native functionality. Additionally for web, I utilized dart-js interoperability to harness specific JavaScript libraries",
+                  "Clean Architecture approach is used to develop the app.",
+                  "Firebase Cloud Messaging (FCM) is used to integrate push notification functionality.",
                 ]}
                 link="https://www.digichorus.com/"
               />
 
               <Journey
-                period="Jan 2023 - May 2023"
+                period="Jan 2023 - June 2023"
                 company="Brain Podium Technologies Pvt Ltd"
                 title="Freelance Flutter Developer"
                 responsibilities={[
-                  "Added a comprehensive chat module to a stock market education app - Livelong Wealth",
-                  "Developed an attendance management application. It uses Face Authentication to identify the user.",
+                  "Project #1",
+                  "Integrated a comprehensive chat module into Livelong Wealth app, resulting in increased customer engagement and retention. The chat module included features such as image and video sharing, link sharing, user tagging, message reactions, push notifications and more.",
+                  "Improved UI/UX of the whole app | Added Animations | Worked on UI bug fixes.",
+                  "Project #2",
+                  "Developed two apps for a food token management system within an organization. The first app allowed users to redeem tokens using face authentication technology, while the second app served as an admin tool for user management and monitoring of token availability records.",
+                  "Used google_ml_kit and flutter_face_api packages to implement face authentication and wrote custom face comparison logic to reduce the face comparison time.",
+                  "Integrated excel to assess and update the user token usage records.",
                 ]}
                 link="https://www.brainpodium.com/"
               />
